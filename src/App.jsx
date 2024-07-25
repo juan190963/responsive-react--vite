@@ -3,6 +3,11 @@ import logo from "../src/img/default-logo.png"
 import check from "../src/img/check.png"
 import imgUX from "../src/img/vvv.jpg"
 import phone from "../src/img/phone-2-min.png"
+import edificio from "../src/img/ret-min.jpg"
+import mujer from "../src/img/fdffffff-min.jpg"
+import comillas from "../src/img/descarga.png"
+import teams from "../src/img/photo-1.jpg"
+
 function App() {
 
   return (
@@ -140,7 +145,7 @@ function App() {
         </div>
       </section>
 
-      <section className='section__Designs bg-gray-200'>
+      <section className='section__Designs bg-gray-100'>
         <div className='Designs__Container'>
           <div className='Desing__Content'>
             <div className='Desing__Text'>
@@ -213,23 +218,23 @@ function App() {
         </div>
       </section>
 
-      <section className='section__Build'>
-        <div className='Build__Container flex ml-36 mt-52 mb-52'>
+      <section className='section__Build '>
+        <div className='Build__Container flex ml-64 mt-52 mb-28 justify-items-center	'>
           <div className='Build__Circle relative pr-7'>
-            <div className='circle absolute top-14 w-327w h-327h -z-1 bg-blue-800 rounded-full'></div>
+            <div className='circle absolute mt-28 ml-3 w-327w h-327h -z-1 bg-blue-800 rounded-full'></div>
           </div>
           <img src={phone} alt="" className='Build__phone h-auto w-72 object-cover' />
-          <div className='Build__Text'>
-            <h5 className='Build__sub--Title'>ABOUT US</h5>
-            <h2 className='Build__Title'> Build your dream website today</h2>
-            <p className='Build__Parrafo'>Article evident arrived express highest men did boy. Mistress sensible entirely
+          <div className='Build__Text pl-24'>
+            <h5 className='Build__sub--Title uppercase tracking-widest font-normal	text-xl	leading-normal mt-5 mb-5'>ABOUT US</h5>
+            <h2 className='Build__Title text-6xl leading-none font-normal mt-5 mb-5 w-6/12'> Build your dream website today</h2>
+            <p className='Build__Parrafo font-normal  leading-loose w-9/10'>Article evident arrived express highest men did boy. Mistress sensible entirely
               am so.  Quick can manor smart money hopes worth too. Comfort produce husband boy her had
               hearing. Law
               others theirs passed but wishes. You day real less till dear read.
             </p>
-            <ul className='Build__Ul'>
-              <li className='Build__Li'>
-                <div className='Build__Icon'>
+            <ul className='Build__Ul text-xl font-extralight leading-loose	list-none	m-23 '>
+              <li className='Build__Li '>
+                <div className='Build__Icon inline-block text-orange-500	tracking-widest	'>
                   <div xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" xmlSpace="preserve"
                     className="Build-svg" > ►</div>
                 </div>
@@ -237,15 +242,243 @@ function App() {
               </li>
 
               <li>
-                <div className='Build__Icon'>
+                <div className='Build__Icon inline-block text-orange-500	tracking-widest	'>
                   <div xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" xmlSpace="preserve"
-                  className="Build-svg" > ►</div>
+                    className="Build-svg" > ►</div>
                 </div>
                 Multi-Language Support
               </li>
             </ul>
-            <a href="home" className='Build__Button'>Read more</a>
-            <p className='Build__Sub--Parrafo'>Image from<a href="https://www.freepik.com/psd/mockup" className='Build__Sub--Parrafo'>Freepik</a></p>
+            <a href="home" className='Build__Button inline-block p-11-5 uppercase mt-5 text-white bg-blue-700 border-none rounded-3xl tracking-widest hover:bg-black'>Read more</a>
+            <p className='Build__Sub--Parrafo font-normal text-base	pt-4'>Image from <a href="https://www.freepik.com/psd/mockup" className='Build__Sub--Parrafo'>Freepik</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section className='section__Started bg-gray-100'>
+        <div className='Started__Container grid pl-40 pr-40 pt-14 pb-12'>
+          <div className='Started__Content flex bg-white p-21'>
+            <span className='Started__Svg w-24 h-21 mt-16 fill-white rounded-full bg-blue-800 p-5'>
+              <svg className='Started__Svg--icon' viewBox="0 0 60 60" x="0px" y="0px" id="svg-97b5" style={{ enableBackground: 'new 0 0 60 60' }}
+              >
+                <g>
+                  <path d="M42.595,0H17.405C14.977,0,13,1.977,13,4.405v51.189C13,58.023,14.977,60,17.405,60h25.189C45.023,60,47,58.023,47,55.595 V4.405C47,1.977,45.023,0,42.595,0z M15,8h30v38H15V8z M17.405,2h25.189C43.921,2,45,3.079,45,4.405V6H15V4.405 C15,3.079,16.079,2,17.405,2z M42.595,58H17.405C16.079,58,15,56.921,15,55.595V48h30v7.595C45,56.921,43.921,58,42.595,58z"></path>
+                  <path d="M30,49c-2.206,0-4,1.794-4,4s1.794,4,4,4s4-1.794,4-4S32.206,49,30,49z M30,55c-1.103,0-2-0.897-2-2s0.897-2,2-2 s2,0.897,2,2S31.103,55,30,55z"></path>
+                  <path d="M26,5h4c0.553,0,1-0.447,1-1s-0.447-1-1-1h-4c-0.553,0-1,0.447-1,1S25.447,5,26,5z"></path>
+                  <path d="M33,5h1c0.553,0,1-0.447,1-1s-0.447-1-1-1h-1c-0.553,0-1,0.447-1,1S32.447,5,33,5z"></path>
+                  <path d="M56.612,4.569c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414c3.736,3.736,3.736,9.815,0,13.552 c-0.391,0.391-0.391,1.023,0,1.414c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293 C61.128,16.434,61.128,9.085,56.612,4.569z"></path>
+                  <path d="M52.401,6.845c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414c1.237,1.237,1.918,2.885,1.918,4.639 s-0.681,3.401-1.918,4.638c-0.391,0.391-0.391,1.023,0,1.414c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293 c1.615-1.614,2.504-3.764,2.504-6.052S54.017,8.459,52.401,6.845z"></path>
+                  <path d="M4.802,5.983c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0c-4.516,4.516-4.516,11.864,0,16.38 c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414 C1.065,15.799,1.065,9.72,4.802,5.983z"></path>
+                  <path d="M9.013,6.569c-0.391-0.391-1.023-0.391-1.414,0c-1.615,1.614-2.504,3.764-2.504,6.052s0.889,4.438,2.504,6.053 c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414 c-1.237-1.237-1.918-2.885-1.918-4.639S7.775,9.22,9.013,7.983C9.403,7.593,9.403,6.96,9.013,6.569z"></path>
+                </g>
+              </svg>
+            </span>
+            <div className='Started__Text--Container flex items-center'>
+              <div className='Started__Text inline-block'>
+                <h2 className='Started__Title pl-10 pt-3 text-6xl	font-normal leading-loose	'>Let's Get Started</h2>
+                <h6 className='Started__Sub--title pl-10 pb-6 text-2xl font-normal w-8/12	'>Have a project or partnership in mind?
+                  Contact us today for a free consultation.</h6>
+              </div>
+              <a className='Started__Button font-semibold text-lg	rounded-3xl bg-blue-800 text-white w-48 h-12 p-10-30 hover:bg-blue-400' href="home">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='section__About'>
+        <div className='About__Container '>
+          <div className='About__Content relative'>
+            <img src={edificio} alt="" className='About__img--edificio absolute w-96 h-72 rounded-xl m-62 mt-100  object-cover ' />
+            <div>
+              <svg className="About__Svg absolute w-56 fill-blue-800  ml-72 mt-48" viewBox="0 0 160 160" x="0px" y="0px" id="svg-db78">
+                <path d="M114.3,152.3l38-38C144.4,130.9,130.9,144.4,114.3,152.3z M117.1,9.1l-108,108c0.8,1.6,1.7,3.2,2.7,4.8l110-110 C120.3,10.9,118.7,10,117.1,9.1z M97.5,2L2,97.5c0.4,2,1,4,1.5,5.9l99.9-99.9C101.5,2.9,99.5,2.4,97.5,2z M80,160c2,0,4-0.1,5.9-0.2 l73.9-73.9c0.1-2,0.2-3.9,0.2-5.9c0-0.6,0-1.2,0-1.9L78.1,160C78.8,160,79.4,160,80,160z M34.9,146.1c1.5,1,3,2,4.6,2.9L149,39.5 c-0.9-1.6-1.9-3.1-2.9-4.6L34.9,146.1z M132.7,19.8L19.8,132.7c1.2,1.3,2.3,2.6,3.6,3.9L136.6,23.4C135.3,22.2,134,21,132.7,19.8z M59.6,157.4l97.8-97.8c-0.5-1.9-1.1-3.8-1.7-5.7L53.9,155.6C55.8,156.3,57.7,156.9,59.6,157.4z M7.6,45.9L45.9,7.6 C29.1,15.5,15.5,29.1,7.6,45.9z M80,0c-2.6,0-5.1,0.1-7.6,0.4l-72,72C0.1,74.9,0,77.4,0,80c0,0.1,0,0.2,0,0.2L80.2,0 C80.2,0,80.1,0,80,0z"></path>
+              </svg>
+              <img src={mujer} alt="" className='About__img--mujer absolute w-2/6	h-540	rounded-xl	ml-96 mt-72 object-cover	' />
+              <div className='About__Circle absolute bg-blue-800 w-56 h-56 rounded-full ml-54 mt-20  -z-1'></div>
+              <div>
+                <div className='About__Text absolute bg-none bg-gray-100 rounded-xl w-4/11 h-100  mt-40	ml-51 pt-16 pl-28  -z-1'>
+                  <h3 className='About__Title text-5xl	font-normal pt-11 '>About Us</h3>
+                  <p className='About__parrafo text-lg	font-normal leading-relaxed	mt-5 w-72 '>Elit ut aliquam purus sit amet luctus venenatis. Ridiculus mus mauris vitae ultricies leo
+                    integer malesuada. Massa enim nec dui nunc mattis enim. Sagittis vitae et leo duis ut. Lacus
+                    suspendisse faucibus interdum.
+                  </p>
+                  <p className='About__pie--pagina text-base	font-normal mt-5'>images from <a href="https://www.freepik.com/photos/business">Freepik</a></p>
+                </div>
+                <a href="home" className='About__Button absolute bg-blue-800 text-white rounded-3xl w-44 h-auto tracking-widest	uppercase font-medium text-sm	 mt-44 ml-53 p-15-60-14 hover:bg-black'>learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='section__Help mt-150 bg-gray-100'>
+        <div className='Help__Container'>
+          <div className='Help__Text text-center	pt-20'>
+            <h2 className='Help__Title text-6xl font-normal	'>How We Help People</h2>
+            <p className='Help__Parrafo text-xl	 font-semibold	pt-5 w-2/7	ml-97 leading-relaxed	'>With serious savings, a seamless online application, and unique
+              community benefits, our members have a lot to say about our loans!
+            </p>
+          </div>
+
+          <div className='Help__Containers grid gap-12 p-8 mt-6 ml-40'>
+            <div className='Help__Container1 bg-blue-800 rounded-3xl p-5 pb-8'>
+              <span className='Help__Icon'><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
+              <p className='Help__Parrafo text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+                Article evident arrived express highest men did boy. Mistress
+                sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
+                husband boy her had hearing.
+              </p>
+            </div>
+
+            <div className='Help__Container2  bg-blue-800 rounded-3xl p-5'>
+              <span><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
+              <p className='Help__Parrafo text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+                Article evident arrived express highest men did boy. Mistress
+                sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
+                husband boy her had hearing.
+              </p>
+            </div>
+
+            <div className='Help__Container3  bg-blue-800 rounded-3xl p-5 '>
+              <span><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
+              <p className='Help__Parrafo text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+                Article evident arrived express highest men did boy. Mistress
+                sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
+                husband boy her had hearing.
+              </p>
+            </div>
+          </div>
+
+          <div className='Help__Containers--Personas flex '>
+            <div className='Help__Persona1 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full 	ml-48'>
+              <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>May Smith</h6>
+            </div>
+
+            <div className='Help__Persona2 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full ml-80 ' >
+              <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>Bob Perry</h6>
+            </div>
+
+            <div className='Help__Persona3 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full ml-80'>
+              <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>Marry Hudson</h6>
+            </div>
+          </div>
+          <p className='Help__Pie--Pagina text-gray-500 text-base	font-normal text-center mt-14'>Image from <a href="https://freepik.com/photos/p">Freepik</a></p>
+        </div>
+      </section>
+
+      <section className='section__Teams bg-gray-100'>
+        <div className='Teams__Container relative pt-40 h-700'>
+          <div className='Teams__Content'>
+            <div>
+              <div className='Teams__Cuadro absolute bg-none	bg-blue-800 rounded-xl w-2/7 h-100 ml-58 mt-28'></div>
+              <img src={teams} alt="" className='Teams__Img absolute w-3/5	 ml-64	rounded-3xl object-cover	' />
+              <div className='Teams__Text absolute bg-none	bg-white rounded-2xl w-2/5	h-96 ml-32 mt-97 pt-3 pl-10'>
+                <h3 className='Teams__Title text-6xl	font-normal pt-12'>Effective Teams</h3>
+                <p className='Teams__Parrafo text-base	font-normal leading-relaxed	mt-5	 '>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <p className='Teams__Pie--pagina text-base	font-normal	mt-5'>images from <a href="https://www.freepik.com/photos/business"></a>Freepik</p>
+                <a href="home" className='Teams__Button absolute mt-6 bg-blue-800 text-white rounded-3xl w-44 h-12 uppercase font-semibold text-sm	pt-4 pl-10 hover:bg-black '>learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='section__Contact'>
+        <div className='Contact__Container'>
+          <div className='Contact__Content'>
+            <div className='Contact__Content--invisible'></div>
+            <div className='Contact__Container--list'>
+              <div className='Contact__Lists'>
+                <div className='Contact__Office'>
+                  <div className='Contact__Info'>
+                    <span className="Contact__SVG">
+                      <svg className="Contact__SVG" viewBox="0 0 52 52" x="0px" y="0px" id="svg-077e">
+                        <path
+                          style={{ fill: 'currentColor' }}
+                          d="M38.853,5.324L38.853,5.324c-7.098-7.098-18.607-7.098-25.706,0h0
+                          C6.751,11.72,6.031,23.763,11.459,31L26,52l14.541-21C45.969,23.763,45.249,11.72,38.853,5.324z M26.177,24c-3.314,0-6-2.686-6-6
+                          s2.686-6,6-6s6,2.686,6,6S29.491,24,26.177,24z"
+                        ></path>
+                      </svg>
+                    </span>
+                    <h4 className='Contact__Title--lists'>OUR MAIN OFFICE</h4>
+                    <p className='Contact__Parrafo--list'>SoHo 94 Broadway St New York, NY 1001</p>
+                  </div>
+                </div>
+                <div className='Contact__Number'>
+                  <div className='Contact__Info'>
+                    <span className="Contact__SVG">
+                      <svg className="Contact__SVG" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-9786" >
+                        <g>
+                          <g>
+                            <path
+                              d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"
+                            />
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                    <h4 className='Contact__Title--lists'>PHONE NUMBER</h4>
+                    <p className='Contact__Parrafo--list'>234-9876-5400 888-0123-4567 (Toll Free)</p>
+                  </div>
+                </div>
+
+                <div className='Contact__Fax'>
+                  <div className='Contact__Info'>
+                    <span className="Contact__SVG">
+                      <svg className="Contact__SVG" viewBox="0 0 512 512" id="svg-d01e">
+                        <path
+                          d="m201 12.714v184.286h267v-184.286c0-7.022-5.692-12.714-12.714-12.714h-241.572c-7.022 0-12.714 5.692-12.714 12.714zm63.89 33.131h70.271c8.284 0 15 6.716 15 15s-6.716 15-15 15h-70.271c-8.284 0-15-6.716-15-15s6.715-15 15-15zm0 75.142h139.22c8.284 0 15 6.716 15 15s-6.716 15-15 15h-139.22c-8.284 0-15-6.716-15-15s6.715-15 15-15z"
+                        />
+                        <path
+                          d="m472 227h-275c-22.091 0-40 17.909-40 40v205c0 22.091 17.909 40 40 40h275c22.091 0 40-17.909 40-40v-205c0-22.091-17.909-40-40-40zm-207.5 217.5h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-60h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-60h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15zm80 120h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-60h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-60h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15zm80 120h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-60h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15zm0-60h-20c-8.284 0-15-6.716-15-15s6.716-15 15-15h20c8.284 0 15 6.716 15 15s-6.716 15-15 15z"
+                        />
+                        <path
+                          d="m87 227h-47c-22.091 0-40 17.909-40 40v205c0 22.091 17.909 40 40 40h47c22.091 0 40-17.909 40-40v-205c0-22.091-17.909-40-40-40z"
+                        />
+                      </svg>
+                    </span>
+                    <h4 className='Contact__Title--lists'>FAX</h4>
+                    <p className='Contact__Parrafo--list'>1-234-567-8900</p>
+                  </div>
+                </div>
+
+                <div className='Contact__Email'>
+                  <div className='Contact__Info'>
+                    <span className="Contact__SVG">
+                      <svg className="Contact__SVG" viewBox="0 0 512 512" x="0px" y="0px" id="svg-9f82">
+                        <g>
+                          <g>
+                            <path d="M507.49,101.721L352.211,256L507.49,410.279c2.807-5.867,4.51-12.353,4.51-19.279V121 C512,114.073,510.297,107.588,507.49,101.721z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M467,76H45c-6.927,0-13.412,1.703-19.279,4.51l198.463,197.463c17.548,17.548,46.084,17.548,63.632,0L486.279,80.51 C480.412,77.703,473.927,76,467,76z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M4.51,101.721C1.703,107.588,0,114.073,0,121v270c0,6.927,1.703,13.413,4.51,19.279L159.789,256L4.51,101.721z"></path>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M331,277.211l-21.973,21.973c-29.239,29.239-76.816,29.239-106.055,0L181,277.211L25.721,431.49 C31.588,434.297,38.073,436,45,436h422c6.927,0,13.412-1.703,19.279-4.51L331,277.211z"></path>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                    <h4 className='Contact__Title--lists'>EMAIL</h4>
+                    <p className='Contact__Parrafo--list'><a href="mailto:hello@theme.com">hello@theme.com</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

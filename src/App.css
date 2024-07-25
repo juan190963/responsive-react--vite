@@ -28,10 +28,14 @@ body {
     padding-bottom: 7%;
 }
 
-.Desing__Sub--Title,
-.Desing__Parrafo,
-.UX__Parrafo,
-.UX__Button{
+.Desing__Sub--Title,.Desing__Parrafo,
+.UX__Parrafo,.UX__Button,
+.Build__sub--Title,.Build__Parrafo,
+.Build__Ul,.Build__Sub--Parrafo,
+.Started__Button,.About__parrafo,
+.About__pie--pagina,.About__Button,
+.Help__Parrafo,.Help__Pie--Pagina,
+.Teams__Parrafo,.Teams__Pie--pagina,.Teams__Button {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -43,5 +47,40 @@ body {
     margin: -500px 80px 0 33%;
 }
 
+ .Started__Container{
+  grid-template-columns: repeat(1, calc(100% - 1px));
 
+}
 
+.Started__Sub--title{
+    font-family: "montserrat", sans-serif
+}
+
+.Help__Containers{
+    grid-template-columns: repeat(3, calc(25% - -5px));
+}
+
+.Help__Persona1{
+    background-image: url(//images01.nicepage.com/c461c07a441a5d220e8feb1a/52d82c5900df5c6e8686dcd1/44d5d282-18f7-4295-9493-b2865af9bf3d.jpg);
+    border: solid #1847b8 2px;
+    border-width: 6px;
+
+}
+
+.Help__Persona2{
+    background-image: url(//images01.nicepage.com/c461c07a441a5d220e8feb1a/d6c11a21917b552d9ffb48bc/44720b5f-d674-4089-b6ec-12c44ea13947.jpg);
+    border: solid #1847b8 2px;
+    border-width: 6px;
+
+}
+
+.Help__Persona3{
+    background-image: url(//images01.nicepage.com/c461c07a441a5d220e8feb1a/63e47b4c0f7858f381525540/dgrt-min.jpg);
+    border: solid #1847b8 2px;
+    border-width: 6px;
+
+}
+
+.Help__Text--personas{
+    font-family: "Montserrat", sans-serif;
+}
