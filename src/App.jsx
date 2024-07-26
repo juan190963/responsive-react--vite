@@ -46,7 +46,7 @@ function App() {
             <div className='MobileApp__List--Container'>
               <div className='MobileApp__List--Content grid pr-44  gap-6 relative justify-center'>
                 <div className='MobileApp_List-- fill-blue-800 bg-white	w-60 h-48 flex items-center justify-center flex-col rounded-xl'>
-                  <span className='icon--estrategia w-20  rounded-full bg-gray-200	 p-5 '>
+                  <span className='icon--estrategia w-20  rounded-full bg-gray-200 p-5 '>
                     <svg className="icon--estrategia " viewBox="0 0 512 512" x="0px" y="0px" id="svg-d293">
                       <g>
                         <g>
@@ -366,7 +366,7 @@ function App() {
         </div>
       </section>
 
-      <section className='section__Teams bg-gray-100'>
+      <section className='section__Teams bg-gray-100 pb-20'>
         <div className='Teams__Container relative pt-40 h-700'>
           <div className='Teams__Content'>
             <div>
@@ -387,16 +387,16 @@ function App() {
         </div>
       </section>
 
-      <section className='section__Contact'>
+      <section className='section__Contact bg-none	bg-blue-800 pb-36'>
         <div className='Contact__Container'>
           <div className='Contact__Content'>
-            <div className='Contact__Content--invisible'></div>
-            <div className='Contact__Container--list'>
-              <div className='Contact__Lists'>
-                <div className='Contact__Office'>
-                  <div className='Contact__Info'>
-                    <span className="Contact__SVG">
-                      <svg className="Contact__SVG" viewBox="0 0 52 52" x="0px" y="0px" id="svg-077e">
+            <div className='Contact__Content--invisible absolute bg-gray-100 w-full h-60'></div>
+            <div className='Contact__Container--list relative'>
+              <div className='Contact__Lists flex gap-10 justify-center'>
+                <div className='Contact__Office bg-white rounded-xl w-72 h-60 pt-7 mt-28'>
+                  <div className='Contact__Info flex items-center  flex-col'>
+                    <span className="Contact__SVG ">
+                      <svg className="Contact__SVG w-16 text-blue-800 " viewBox="0 0 52 52" x="0px" y="0px" id="svg-077e">
                         <path
                           style={{ fill: 'currentColor' }}
                           d="M38.853,5.324L38.853,5.324c-7.098-7.098-18.607-7.098-25.706,0h0
@@ -405,14 +405,14 @@ function App() {
                         ></path>
                       </svg>
                     </span>
-                    <h4 className='Contact__Title--lists'>OUR MAIN OFFICE</h4>
-                    <p className='Contact__Parrafo--list'>SoHo 94 Broadway St New York, NY 1001</p>
+                    <h4 className='Contact__Title--lists font-normal uppercase text-2xl	pt-5'>OUR MAIN OFFICE</h4>
+                    <p className='Contact__Parrafo--list font-normal text-base	w-9/12	text-center pt-4'>SoHo 94 Broadway St New York, NY 1001</p>
                   </div>
                 </div>
-                <div className='Contact__Number'>
-                  <div className='Contact__Info'>
+                <div className='Contact__Number bg-white rounded-2xl w-72 h-60 pt-7 mt-28 '>
+                  <div className='Contact__Info flex items-center  flex-col'>
                     <span className="Contact__SVG">
-                      <svg className="Contact__SVG" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-9786" >
+                      <svg className="Contact__SVG w-16 fill-blue-800" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-9786" >
                         <g>
                           <g>
                             <path
@@ -422,15 +422,14 @@ function App() {
                         </g>
                       </svg>
                     </span>
-                    <h4 className='Contact__Title--lists'>PHONE NUMBER</h4>
-                    <p className='Contact__Parrafo--list'>234-9876-5400 888-0123-4567 (Toll Free)</p>
+                    <h4 className='Contact__Title--lists font-normal uppercase text-2xl	pt-5'>PHONE NUMBER</h4>
+                    <p className='Contact__Parrafo--list font-normal text-base	w-9/12	text-center pt-4'>234-9876-5400 888-0123-4567 (Toll Free)</p>
                   </div>
                 </div>
-
-                <div className='Contact__Fax'>
-                  <div className='Contact__Info'>
+                <div className='Contact__Fax bg-white rounded-2xl w-72 h-60 pt-7 mt-28'>
+                  <div className='Contact__Info flex items-center  flex-col'>
                     <span className="Contact__SVG">
-                      <svg className="Contact__SVG" viewBox="0 0 512 512" id="svg-d01e">
+                      <svg className="Contact__SVG w-16 fill-blue-800" viewBox="0 0 512 512" id="svg-d01e">
                         <path
                           d="m201 12.714v184.286h267v-184.286c0-7.022-5.692-12.714-12.714-12.714h-241.572c-7.022 0-12.714 5.692-12.714 12.714zm63.89 33.131h70.271c8.284 0 15 6.716 15 15s-6.716 15-15 15h-70.271c-8.284 0-15-6.716-15-15s6.715-15 15-15zm0 75.142h139.22c8.284 0 15 6.716 15 15s-6.716 15-15 15h-139.22c-8.284 0-15-6.716-15-15s6.715-15 15-15z"
                         />
@@ -442,15 +441,14 @@ function App() {
                         />
                       </svg>
                     </span>
-                    <h4 className='Contact__Title--lists'>FAX</h4>
-                    <p className='Contact__Parrafo--list'>1-234-567-8900</p>
+                    <h4 className='Contact__Title--lists font-normal uppercase text-2xl	pt-5'>FAX</h4>
+                    <p className='Contact__Parrafo--list font-normal text-base	w-9/12	text-center pt-4'>1-234-567-8900</p>
                   </div>
                 </div>
-
-                <div className='Contact__Email'>
-                  <div className='Contact__Info'>
+                <div className='Contact__Email bg-white rounded-2xl w-64 h-60 pt-7 mt-28'>
+                  <div className='Contact__Info flex items-center  flex-col'>
                     <span className="Contact__SVG">
-                      <svg className="Contact__SVG" viewBox="0 0 512 512" x="0px" y="0px" id="svg-9f82">
+                      <svg className="Contact__SVG w-16 fill-blue-800" viewBox="0 0 512 512" x="0px" y="0px" id="svg-9f82">
                         <g>
                           <g>
                             <path d="M507.49,101.721L352.211,256L507.49,410.279c2.807-5.867,4.51-12.353,4.51-19.279V121 C512,114.073,510.297,107.588,507.49,101.721z"></path>
@@ -473,8 +471,72 @@ function App() {
                         </g>
                       </svg>
                     </span>
-                    <h4 className='Contact__Title--lists'>EMAIL</h4>
-                    <p className='Contact__Parrafo--list'><a href="mailto:hello@theme.com">hello@theme.com</a></p>
+                    <h4 className='Contact__Title--lists font-normal uppercase text-2xl	pt-5'>EMAIL</h4>
+                    <p className='Contact__Parrafo--list font-extrabold text-base	w-9/12	text-center pt-4 text-blue-800'><a href="mailto:hello@theme.com">hello@theme.com</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='Container__Layout 	'>
+              <div className='Layout__Content '>
+                <div className='Layout__Information '>
+                  <div className='Layout__Information--contact  flex justify-center pt-20'>
+                    <div className='Layout__Information--content ml-36'>
+                      <h2 className='Layout__Title text-6xl	font-medium text-white leading-relaxed	'>Get in touch</h2>
+                      <h6 className='Layout__Sub--title text-lg	font-bold text-white italic		w-8/12			'>We can ensure reliability, low cost fares and most important, with safety and comfort in
+                        mind.</h6>
+                      <p className='Layout__Parrafo leading-loose	text-base	mt-5 	text-white w-9/12	'>Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia!
+                        Maecenas gravida lacus. Lorem etiam sit amet convallis erat.</p>
+                      <div className='Layout__Container--social flex  gap-5 mt-10'>
+                        <a href="home" className='Layout__Social--url w-10 fill-white'>
+                          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f107" className='Layout__Icon'>
+                            <path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
+                          </svg>
+                        </a>
+
+                        <a href="" className='Layout__Social--url fill-white w-10'>
+                          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-e140" className='Layout__Icon'>
+                            <path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path>
+                          </svg>
+                        </a>
+
+                        <a href="" className='Layout__Social--url fill-white w-10'>
+                          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4718" className='Layout__Icon'>
+                            <path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path>
+                            <path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path>
+                            <path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path>
+                          </svg>
+                        </a>
+
+                        <a href="" className='Layout__Social--url fill-white w-10'>
+                          <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-438b" className='Layout__Icon'>
+                            <path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div className='Form--Contact__Container'>
+                      <div className='Form--Contact__Content '>
+                        <form action="post" className='Form '>
+                          <div className='flex flex-wrap gap-10  pt-8'>
+                            <div className='Form__Email'>
+                              <label htmlFor="" className='Form__Label block font-bold text-base	 text-white'>Email</label>
+                              <input type="email" placeholder="Enter a valid email address" className='Form__Input bg-transparent text-white outline-none w-60	' />
+                            </div>
+                            <div className='Form__Name'>
+                              <label htmlFor="" className='Form__Label block font-bold text-base	 text-white'>Name</label>
+                              <input type="text" placeholder="Enter your Name" className='Form__Input bg-transparent text-white outline-none w-56	' />
+                            </div>
+
+                            <div className='Form__Messages'>
+                              <label htmlFor="" className='Form__Label block font-bold text-base text-white'>Message</label>
+                              <textarea placeholder="Enter your message" rows="4" cols="35" className='bg-transparent text-white outline-none w-97'></textarea><br />
+                              <a href="home" className='Teams__Button absolute mt-6 bg-white text-black w-97 h-12 uppercase text-center	pt-4 hover:bg-slate-200'>Submit</a>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -482,6 +544,19 @@ function App() {
           </div>
         </div>
       </section>
+
+      <footer className='Footer bg-zinc-700 text-white'>
+        <div className='Footer__Container text-center	 pt-16'>
+          <div className='Footer__Parrafo  '>
+            <p className='text-center'>Sample text. Click to select the text box. Click again or double click to start editingthe text.</p>
+          </div>
+          <div className='Footer__Extra flex gap-5 pt-25  '>
+          <a href="#" className='Footer__Link--extra border-b underline  text-purple-800 hover:text-zinc-500 hover:no-underline ml-58 ' ><span>Website Builder Software</span></a>
+            <p className='Footer__Parrafo--extra'><span>created with</span></p>
+            <a href="" className='Footer__Link underline  text-purple-800 hover:text-zinc-500 hover:no-underline'><span>Website Templates</span></a>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
