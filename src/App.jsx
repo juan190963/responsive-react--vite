@@ -35,16 +35,17 @@ function App() {
         </nav> */}
       </header>
 
-
-      <section className='section__MobileApp'>
+      {/* sm:bg-green-500 md:bg-blue-500 lg:bg-yellow-500 xl:bg-purple-500 2xl:bg-pink-500  */}
+      
+      <section className='section__MobileApp '>
         <div className='MobileApp__Container '>
-          <div className='MobileApp__Content flex flex-row items-end bg-center bg-cover pt-96 pb-28'>
-            <div className='MobileApp__Text pl-40'>
-              <h1 className='MobileApp__Title text-8xl font-extrabold	w-2/3 text-white	'>Mobile App Development</h1>
-              <p className='MobileApp__Parrafo text-white font-extrabold	'>Image from <a href="https://www.freepik.com/photos/business" className='MobileApp__Parrafo'>Freepik</a></p>
+          <div className='MobileApp__Content flex flex-row items-end bg-center bg-cover pt-96 pb-28  '>
+            <div className='MobileApp__Text'>
+              <h1 className='MobileApp__Title  font-extrabold	 text-white   '>Mobile App Development</h1>
+              <p className='MobileApp__Parrafo text-white font-medium	pt-6  '>Image from <a href="https://www.freepik.com/photos/business" className='MobileApp__Parrafo underline hover:text-zinc-200 hover:no-underline'>Freepik</a></p>
             </div>
             <div className='MobileApp__List--Container'>
-              <div className='MobileApp__List--Content grid pr-44  gap-6 relative justify-center'>
+              <div className='MobileApp__List--Content grid pr-44  gap-6 relative justify-center lg:pl-9 '>
                 <div className='MobileApp_List-- fill-blue-800 bg-white	w-60 h-48 flex items-center justify-center flex-col rounded-xl'>
                   <span className='icon--estrategia w-20  rounded-full bg-gray-200 p-5 '>
                     <svg className="icon--estrategia " viewBox="0 0 512 512" x="0px" y="0px" id="svg-d293">
@@ -145,17 +146,16 @@ function App() {
         </div>
       </section>
 
-      <section className='section__Designs bg-gray-100'>
+      <section className='section__Designs bg-gray-100  '>
         <div className='Designs__Container'>
-          <div className='Desing__Content'>
             <div className='Desing__Text'>
               <h2 className='Desing__Title text-6xl	font-normal	text-center pt-28	leading-3'>We create super-awesome designs</h2>
-              <p className='Desing__Parrafo text-lg	font-semibold	leading-7 text-center ml-96 pr-3 pt-16 w-2/4	'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              <p className='Desing__Parrafo--title text-lg	font-semibold	leading-7 text-center pt-16  '>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
             </div>
             <div className='Desing__List--Container grid  gap-5 '>
-              <div className='Desing__List flex bg-white rounded-2xl p-6 pl-10'>
-                <span ><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24' /></span>
+              <div className=' flex bg-white rounded-2xl p-6 '>
+                <span className='Desing__img'><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24 ' /></span>
                 <div className='Desing_containers'>
                   <h5 className='Desing__Sub--Title pl-5 text-xl	font-normal	'>Amazing Design</h5>
                   <p className='Desing__Parrafo pl-5 text-lg	font-normal pt-10 pb-5'>Sample text. Click to select the text box. Click again or double click
@@ -163,8 +163,8 @@ function App() {
                 </div>
               </div>
 
-              <div className='Desing__List flex bg-white rounded-2xl p-6 pl-10'>
-                <span><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24' /></span>
+              <div className='Desing__List flex bg-white rounded-2xl p-6 '>
+                <span className='Desing__img '><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24' /></span>
                 <div className='Desing_containers'>
                   <h5 className='Desing__Sub--Title pl-5 text-xl	font-normal'>Copywriting</h5>
                   <p className='Desing__Parrafo pl-5 text-lg	font-normal pt-10 pb-5'>Sample text. Click to select the text box. Click again or double click
@@ -172,8 +172,8 @@ function App() {
                 </div>
               </div>
 
-              <div className='Desing__List flex bg-white rounded-2xl p-6 pl-10'>
-                <span><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24' /></span>
+              <div className='Desing__List flex bg-white rounded-2xl p-6 '>
+                <span className='Desing__img '><img src={check} alt="" className='svg rounded-full bg-blue-800 p-3 w-24' /></span>
                 <div className='Desing_containers'>
                   <h5 className='Desing__Sub--Title pl-5 text-xl	font-normal'>Development</h5>
                   <p className='Desing__Parrafo pl-5 text-lg	font-normal pt-10 pb-5'>Sample text. Click to select the text box. Click again or double click
@@ -181,8 +181,8 @@ function App() {
                 </div>
               </div>
 
-              <div className='Desing__List flex bg-white rounded-2xl p-6 pl-10'>
-                <span><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24' /></span>
+              <div className='Desing__List flex bg-white rounded-2xl p-6 '>
+                <span className='Desing__img '><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24' /></span>
                 <div className='Desing_containers'>
                   <h5 className='Desing__Sub--Title pl-5 text-xl	font-normal'>24/7 Support</h5>
                   <p className='Desing__Parrafo pl-5 text-lg	font-normal pt-10 pb-5'>Sample text. Click to select the text box. Click again or double click
@@ -190,14 +190,14 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </section>
 
       <section className='section__UX'>
         <div className='UX__Container'>
           <div className='UX__Containers relative'>
-            <div className='UX_Text w-7/12	 ml-48 mt-16 bg-blue-800 rounded-2xl p-5 text-white	pt-14 pl-24 pb-25'>
+          {/* w-7/12  ml-48*/}
+            <div className='UX_Text 	  mt-16 bg-blue-800 rounded-2xl p-5 text-white	pt-14 pl-24 pb-25 '>
               <h3 className='UX__Title text-4xl	pt-12 font-normal	 w-7/12 leading-10'> Why choose UX studio as your
                 app design partner?</h3>
               <p className='UX__Parrafo pt-8 text-lg	w-7/12'>Duis aute irure dolor in reprehenderit in
@@ -207,27 +207,31 @@ function App() {
                 proident, sunt in culpa qui officia
                 deserunt.
                 <br /><br />
-                Image from <a href="https://www.freepik.com/photos/woman" className='UX__Parrafo hover:no-underline	'>Freepik</a>
+                Image from <a href="https://www.freepik.com/photos/woman" className='UX__Parrafo underline hover:text-zinc-200 hover:no-underline'>Freepik</a>
               </p>
               <a href="home" className='UX__Button bg-transparent border-2 rounded-3xl	text-center tracking-wider	font-semibold	text-base	uppercase inline-block mt-10 hover:bg-white hover:text-black'>learn more</a>
             </div>
             <div className='UX__Img'>
-              <img src={imgUX} alt="" className='UX__Img block object-cover bg-no-repeat	w-3/5 h-600p rounded-3xl	 ' />
+            {/* w-3/5 */}
+              <img src={imgUX} alt="" className='UX__Img block object-cover bg-no-repeat	  rounded-3xl	 ' />
             </div>
           </div>
         </div>
       </section>
 
       <section className='section__Build '>
-        <div className='Build__Container flex ml-64 mt-52 mb-28 justify-items-center	'>
-          <div className='Build__Circle relative pr-7'>
-            <div className='circle absolute mt-28 ml-3 w-327w h-327h -z-1 bg-blue-800 rounded-full'></div>
-          </div>
-          <img src={phone} alt="" className='Build__phone h-auto w-72 object-cover' />
-          <div className='Build__Text pl-24'>
+        <div className='Build__Container flex  mt-52 mb-28 justify-items-center	'>
+        {/* pr-7 */}
+          
+            <div className='circle absolute mt-28  -z-1 bg-blue-800 rounded-full'></div>
+          <img src={phone} alt="" className='Build__phone   object-cover' />
+          {/* pl-24 */}
+          <div className='Build__Text '>
             <h5 className='Build__sub--Title uppercase tracking-widest font-normal	text-xl	leading-normal mt-5 mb-5'>ABOUT US</h5>
-            <h2 className='Build__Title text-6xl leading-none font-normal mt-5 mb-5 w-6/12'> Build your dream website today</h2>
-            <p className='Build__Parrafo font-normal  leading-loose w-9/10'>Article evident arrived express highest men did boy. Mistress sensible entirely
+            {/* w-6/12 */}
+            <h2 className='Build__Title text-6xl leading-none font-normal mt-5 mb-5 '> Build your dream website today</h2>
+            {/* w-9/10 */}
+            <p className='Build__Parrafo font-normal  leading-loose '>Article evident arrived express highest men did boy. Mistress sensible entirely
               am so.  Quick can manor smart money hopes worth too. Comfort produce husband boy her had
               hearing. Law
               others theirs passed but wishes. You day real less till dear read.
@@ -250,15 +254,18 @@ function App() {
               </li>
             </ul>
             <a href="home" className='Build__Button inline-block p-11-5 uppercase mt-5 text-white bg-blue-700 border-none rounded-3xl tracking-widest hover:bg-black'>Read more</a>
-            <p className='Build__Sub--Parrafo font-normal text-base	pt-4'>Image from <a href="https://www.freepik.com/psd/mockup" className='Build__Sub--Parrafo'>Freepik</a></p>
+            <p className='Build__Sub--Parrafo font-normal text-base	pt-4'>Image from <a href="https://www.freepik.com/psd/mockup" className='Build__Sub--Parrafo underline'>Freepik</a></p>
           </div>
         </div>
       </section>
 
       <section className='section__Started bg-gray-100'>
-        <div className='Started__Container grid pl-40 pr-40 pt-14 pb-12'>
-          <div className='Started__Content flex bg-white p-21'>
-            <span className='Started__Svg w-24 h-21 mt-16 fill-white rounded-full bg-blue-800 p-5'>
+      {/* pl-40 pr-40 pt-14 pb-12k */}
+        <div className='Started__Container grid '>
+          {/* p-21 */}
+          <div className='Started__Content flex bg-white '>
+            {/* w-24 h-21 mt-16 p-5*/}
+            <span className='Started__Svg  fill-white rounded-full bg-blue-800 '>
               <svg className='Started__Svg--icon' viewBox="0 0 60 60" x="0px" y="0px" id="svg-97b5" style={{ enableBackground: 'new 0 0 60 60' }}
               >
                 <g>
@@ -275,11 +282,11 @@ function App() {
             </span>
             <div className='Started__Text--Container flex items-center'>
               <div className='Started__Text inline-block'>
-                <h2 className='Started__Title pl-10 pt-3 text-6xl	font-normal leading-loose	'>Let's Get Started</h2>
-                <h6 className='Started__Sub--title pl-10 pb-6 text-2xl font-normal w-8/12	'>Have a project or partnership in mind?
+                <h2 className='Started__Title  pt-3 text-6xl	font-normal leading-loose	'>Let's Get Started</h2>
+                <h6 className='Started__Sub--title   text-2xl font-normal 	'>Have a project or partnership in mind?
                   Contact us today for a free consultation.</h6>
               </div>
-              <a className='Started__Button font-semibold text-lg	rounded-3xl bg-blue-800 text-white w-48 h-12 p-10-30 hover:bg-blue-400' href="home">Contact us</a>
+              <a className='Started__Button font-semibold text-lg	rounded-3xl bg-blue-800 text-white w-64 h-12 p-10-30 hover:bg-blue-400' href="home">Contact us</a>
             </div>
           </div>
         </div>
@@ -288,23 +295,23 @@ function App() {
       <section className='section__About'>
         <div className='About__Container '>
           <div className='About__Content relative'>
-            <img src={edificio} alt="" className='About__img--edificio absolute w-96 h-72 rounded-xl m-62 mt-100  object-cover ' />
+            <img src={edificio} alt="" className='About__img--edificio absolute  rounded-xl  mt-100  object-cover ' />
             <div>
-              <svg className="About__Svg absolute w-56 fill-blue-800  ml-72 mt-48" viewBox="0 0 160 160" x="0px" y="0px" id="svg-db78">
+              <svg className="About__Svg absolute w-56 fill-blue-800   mt-48" viewBox="0 0 160 160" x="0px" y="0px" id="svg-db78">
                 <path d="M114.3,152.3l38-38C144.4,130.9,130.9,144.4,114.3,152.3z M117.1,9.1l-108,108c0.8,1.6,1.7,3.2,2.7,4.8l110-110 C120.3,10.9,118.7,10,117.1,9.1z M97.5,2L2,97.5c0.4,2,1,4,1.5,5.9l99.9-99.9C101.5,2.9,99.5,2.4,97.5,2z M80,160c2,0,4-0.1,5.9-0.2 l73.9-73.9c0.1-2,0.2-3.9,0.2-5.9c0-0.6,0-1.2,0-1.9L78.1,160C78.8,160,79.4,160,80,160z M34.9,146.1c1.5,1,3,2,4.6,2.9L149,39.5 c-0.9-1.6-1.9-3.1-2.9-4.6L34.9,146.1z M132.7,19.8L19.8,132.7c1.2,1.3,2.3,2.6,3.6,3.9L136.6,23.4C135.3,22.2,134,21,132.7,19.8z M59.6,157.4l97.8-97.8c-0.5-1.9-1.1-3.8-1.7-5.7L53.9,155.6C55.8,156.3,57.7,156.9,59.6,157.4z M7.6,45.9L45.9,7.6 C29.1,15.5,15.5,29.1,7.6,45.9z M80,0c-2.6,0-5.1,0.1-7.6,0.4l-72,72C0.1,74.9,0,77.4,0,80c0,0.1,0,0.2,0,0.2L80.2,0 C80.2,0,80.1,0,80,0z"></path>
               </svg>
-              <img src={mujer} alt="" className='About__img--mujer absolute w-2/6	h-540	rounded-xl	ml-96 mt-72 object-cover	' />
-              <div className='About__Circle absolute bg-blue-800 w-56 h-56 rounded-full ml-54 mt-20  -z-1'></div>
+              <img src={mujer} alt="" className='About__img--mujer absolute 	rounded-xl mt-72 object-cover	' />
+              <div className='About__Circle absolute bg-blue-800 w-56 h-56 rounded-full  mt-20  -z-1'></div>
               <div>
-                <div className='About__Text absolute bg-none bg-gray-100 rounded-xl w-4/11 h-100  mt-40	ml-51 pt-16 pl-28  -z-1'>
+                <div className='About__Text absolute bg-none bg-gray-100 rounded-xl    mt-40	 pt-16 pl-28  -z-1'>
                   <h3 className='About__Title text-5xl	font-normal pt-11 '>About Us</h3>
-                  <p className='About__parrafo text-lg	font-normal leading-relaxed	mt-5 w-72 '>Elit ut aliquam purus sit amet luctus venenatis. Ridiculus mus mauris vitae ultricies leo
+                  <p className='About__parrafo text-lg	font-normal leading-relaxed	mt-5  '>Elit ut aliquam purus sit amet luctus venenatis. Ridiculus mus mauris vitae ultricies leo
                     integer malesuada. Massa enim nec dui nunc mattis enim. Sagittis vitae et leo duis ut. Lacus
                     suspendisse faucibus interdum.
                   </p>
-                  <p className='About__pie--pagina text-base	font-normal mt-5'>images from <a href="https://www.freepik.com/photos/business">Freepik</a></p>
+                  <p className='About__pie--pagina text-base	font-normal mt-5'>images from <a href="https://www.freepik.com/photos/business" className='underline'>Freepik</a></p>
                 </div>
-                <a href="home" className='About__Button absolute bg-blue-800 text-white rounded-3xl w-44 h-auto tracking-widest	uppercase font-medium text-sm	 mt-44 ml-53 p-15-60-14 hover:bg-black'>learn more</a>
+                <a href="home" className='About__Button absolute bg-blue-800 text-white rounded-3xl w-44 h-auto tracking-widest	uppercase font-medium text-sm	 mt-44  p-15-60-14 hover:bg-black'>learn more</a>
               </div>
             </div>
           </div>
@@ -315,15 +322,15 @@ function App() {
         <div className='Help__Container'>
           <div className='Help__Text text-center	pt-20'>
             <h2 className='Help__Title text-6xl font-normal	'>How We Help People</h2>
-            <p className='Help__Parrafo text-xl	 font-semibold	pt-5 w-2/7	ml-97 leading-relaxed	'>With serious savings, a seamless online application, and unique
+            <p className='Help__Parrafo text-xl	 font-semibold	pt-5 	leading-relaxed	'>With serious savings, a seamless online application, and unique
               community benefits, our members have a lot to say about our loans!
             </p>
           </div>
 
-          <div className='Help__Containers grid gap-12 p-8 mt-6 ml-40'>
+          <div className='Help__Containers grid gap-12 p-8 mt-6 '>
             <div className='Help__Container1 bg-blue-800 rounded-3xl p-5 pb-8'>
               <span className='Help__Icon'><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
-              <p className='Help__Parrafo text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 w-72'>
                 Article evident arrived express highest men did boy. Mistress
                 sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
                 husband boy her had hearing.
@@ -332,7 +339,7 @@ function App() {
 
             <div className='Help__Container2  bg-blue-800 rounded-3xl p-5'>
               <span><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
-              <p className='Help__Parrafo text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 w-72'>
                 Article evident arrived express highest men did boy. Mistress
                 sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
                 husband boy her had hearing.
@@ -341,7 +348,7 @@ function App() {
 
             <div className='Help__Container3  bg-blue-800 rounded-3xl p-5 '>
               <span><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
-              <p className='Help__Parrafo text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 w-72'>
                 Article evident arrived express highest men did boy. Mistress
                 sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
                 husband boy her had hearing.
@@ -350,11 +357,11 @@ function App() {
           </div>
 
           <div className='Help__Containers--Personas flex '>
-            <div className='Help__Persona1 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full 	ml-48'>
+            <div className='Help__Persona1 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full 	'>
               <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>May Smith</h6>
             </div>
 
-            <div className='Help__Persona2 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full ml-80 ' >
+            <div className='Help__Persona2 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full ' >
               <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>Bob Perry</h6>
             </div>
 
@@ -362,7 +369,7 @@ function App() {
               <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>Marry Hudson</h6>
             </div>
           </div>
-          <p className='Help__Pie--Pagina text-gray-500 text-base	font-normal text-center mt-14'>Image from <a href="https://freepik.com/photos/p">Freepik</a></p>
+          <p className='Help__Pie--Pagina text-gray-500 text-base	font-normal text-center mt-14'>Image from <a href="https://freepik.com/photos/p" className='underline hover:no-underline'>Freepik</a></p>
         </div>
       </section>
 
@@ -370,9 +377,9 @@ function App() {
         <div className='Teams__Container relative pt-40 h-700'>
           <div className='Teams__Content'>
             <div>
-              <div className='Teams__Cuadro absolute bg-none	bg-blue-800 rounded-xl w-2/7 h-100 ml-58 mt-28'></div>
-              <img src={teams} alt="" className='Teams__Img absolute w-3/5	 ml-64	rounded-3xl object-cover	' />
-              <div className='Teams__Text absolute bg-none	bg-white rounded-2xl w-2/5	h-96 ml-32 mt-97 pt-3 pl-10'>
+              <div className='Teams__Cuadro absolute bg-none	bg-blue-800 rounded-xl  h-100 ml-58 mt-28'></div>
+              <img src={teams} alt="" className='Teams__Img absolute 	 	rounded-3xl object-cover	' />
+              <div className='Teams__Text absolute bg-none	bg-white rounded-2xl   pt-3 pl-10'>
                 <h3 className='Teams__Title text-6xl	font-normal pt-12'>Effective Teams</h3>
                 <p className='Teams__Parrafo text-base	font-normal leading-relaxed	mt-5	 '>
                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -392,8 +399,8 @@ function App() {
           <div className='Contact__Content'>
             <div className='Contact__Content--invisible absolute bg-gray-100 w-full h-60'></div>
             <div className='Contact__Container--list relative'>
-              <div className='Contact__Lists flex gap-10 justify-center'>
-                <div className='Contact__Office bg-white rounded-xl w-72 h-60 pt-7 mt-28'>
+              <div className='Contact__Lists flex  justify-center'>
+                <div className='Contact__Office bg-white rounded-xl pt-7 mt-28'>
                   <div className='Contact__Info flex items-center  flex-col'>
                     <span className="Contact__SVG ">
                       <svg className="Contact__SVG w-16 text-blue-800 " viewBox="0 0 52 52" x="0px" y="0px" id="svg-077e">
@@ -405,11 +412,11 @@ function App() {
                         ></path>
                       </svg>
                     </span>
-                    <h4 className='Contact__Title--lists font-normal uppercase text-2xl	pt-5'>OUR MAIN OFFICE</h4>
+                    <h4 className='Contact__Title--lists font-normal uppercase text-2xl	pt-9'>OUR MAIN OFFICE</h4>
                     <p className='Contact__Parrafo--list font-normal text-base	w-9/12	text-center pt-4'>SoHo 94 Broadway St New York, NY 1001</p>
                   </div>
                 </div>
-                <div className='Contact__Number bg-white rounded-2xl w-72 h-60 pt-7 mt-28 '>
+                <div className='Contact__Number bg-white rounded-2xl  pt-7 mt-28 '>
                   <div className='Contact__Info flex items-center  flex-col'>
                     <span className="Contact__SVG">
                       <svg className="Contact__SVG w-16 fill-blue-800" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-9786" >
@@ -426,7 +433,7 @@ function App() {
                     <p className='Contact__Parrafo--list font-normal text-base	w-9/12	text-center pt-4'>234-9876-5400 888-0123-4567 (Toll Free)</p>
                   </div>
                 </div>
-                <div className='Contact__Fax bg-white rounded-2xl w-72 h-60 pt-7 mt-28'>
+                <div className='Contact__Fax bg-white rounded-2xl  pt-7 mt-28'>
                   <div className='Contact__Info flex items-center  flex-col'>
                     <span className="Contact__SVG">
                       <svg className="Contact__SVG w-16 fill-blue-800" viewBox="0 0 512 512" id="svg-d01e">
@@ -445,7 +452,7 @@ function App() {
                     <p className='Contact__Parrafo--list font-normal text-base	w-9/12	text-center pt-4'>1-234-567-8900</p>
                   </div>
                 </div>
-                <div className='Contact__Email bg-white rounded-2xl w-64 h-60 pt-7 mt-28'>
+                <div className='Contact__Email bg-white rounded-2xl  pt-7 mt-28'>
                   <div className='Contact__Info flex items-center  flex-col'>
                     <span className="Contact__SVG">
                       <svg className="Contact__SVG w-16 fill-blue-800" viewBox="0 0 512 512" x="0px" y="0px" id="svg-9f82">
@@ -481,11 +488,11 @@ function App() {
               <div className='Layout__Content '>
                 <div className='Layout__Information '>
                   <div className='Layout__Information--contact  flex justify-center pt-20'>
-                    <div className='Layout__Information--content ml-36'>
+                    <div className='Layout__Information--content '>
                       <h2 className='Layout__Title text-6xl	font-medium text-white leading-relaxed	'>Get in touch</h2>
-                      <h6 className='Layout__Sub--title text-lg	font-bold text-white italic		w-8/12			'>We can ensure reliability, low cost fares and most important, with safety and comfort in
+                      <h6 className='Layout__Sub--title text-lg	font-bold text-white italic'>We can ensure reliability, low cost fares and most important, with safety and comfort in
                         mind.</h6>
-                      <p className='Layout__Parrafo leading-loose	text-base	mt-5 	text-white w-9/12	'>Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia!
+                      <p className='Layout__Parrafo leading-loose	text-base	mt-5 	text-white 	'>Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia!
                         Maecenas gravida lacus. Lorem etiam sit amet convallis erat.</p>
                       <div className='Layout__Container--social flex  gap-5 mt-10'>
                         <a href="home" className='Layout__Social--url w-10 fill-white'>
@@ -550,10 +557,10 @@ function App() {
           <div className='Footer__Parrafo  '>
             <p className='text-center'>Sample text. Click to select the text box. Click again or double click to start editingthe text.</p>
           </div>
-          <div className='Footer__Extra flex gap-5 pt-25  '>
-          <a href="#" className='Footer__Link--extra border-b underline  text-purple-800 hover:text-zinc-500 hover:no-underline ml-58 ' ><span>Website Builder Software</span></a>
+          <div className='Footer__Extra flex gap-5 pt-20  '>
+            <a href="" className='Footer__Link underline  text-blue-300 hover:text-zinc-500 hover:no-underline '><span>Website Builder Software</span></a>
             <p className='Footer__Parrafo--extra'><span>created with</span></p>
-            <a href="" className='Footer__Link underline  text-purple-800 hover:text-zinc-500 hover:no-underline'><span>Website Templates</span></a>
+            <a href="" className='Footer__Link1 underline  text-blue-300 hover:text-zinc-500 hover:no-underline '><span>Website Templates</span></a>
           </div>
         </div>
       </footer>
