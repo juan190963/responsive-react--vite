@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+    
       <header className='header flex p-2-1-1-1 ml-17p '>
         <a href="home"><img src={logo} className='logo w-14' alt='' /></a>
 
@@ -138,12 +139,12 @@ function App() {
       <section className='section__Designs bg-gray-100  '>
         <div className='Designs__Container'>
             <div className='Desing__Text'>
-              <h2 className='Desing__Title text-6xl	font-normal	text-center pt-28	leading-3'>We create super-awesome designs</h2>
+              <h2 className='Desing__Title text-6xl	font-normal	text-center pt-28	'>We create super-awesome designs</h2>
               <p className='Desing__Parrafo--title text-lg	font-semibold	leading-7 text-center pt-16  '>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
             </div>
             <div className='Desing__List--Container grid  gap-5 '>
-              <div className=' flex bg-white rounded-2xl p-6 '>
+              <div className='container__Desing flex bg-white rounded-2xl p-6 '>
                 <span className='Desing__img'><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24 ' /></span>
                 <div className='Desing_containers'>
                   <h5 className='Desing__Sub--Title pl-5 text-xl	font-normal	'>Amazing Design</h5>
@@ -152,7 +153,7 @@ function App() {
                 </div>
               </div>
 
-              <div className='Desing__List flex bg-white rounded-2xl p-6 '>
+              <div className='container__Desing  flex bg-white rounded-2xl p-6 '>
                 <span className='Desing__img '><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24' /></span>
                 <div className='Desing_containers'>
                   <h5 className='Desing__Sub--Title pl-5 text-xl	font-normal'>Copywriting</h5>
@@ -161,7 +162,7 @@ function App() {
                 </div>
               </div>
 
-              <div className='Desing__List flex bg-white rounded-2xl p-6 '>
+              <div className='container__Desing  flex bg-white rounded-2xl p-6 '>
                 <span className='Desing__img '><img src={check} alt="" className='svg rounded-full bg-blue-800 p-3 w-24' /></span>
                 <div className='Desing_containers'>
                   <h5 className='Desing__Sub--Title pl-5 text-xl	font-normal'>Development</h5>
@@ -170,7 +171,7 @@ function App() {
                 </div>
               </div>
 
-              <div className='Desing__List flex bg-white rounded-2xl p-6 '>
+              <div className='container__Desing  flex bg-white rounded-2xl p-6 '>
                 <span className='Desing__img '><img src={check} alt="" className='Desing__img rounded-full bg-blue-800 p-3 w-24' /></span>
                 <div className='Desing_containers'>
                   <h5 className='Desing__Sub--Title pl-5 text-xl	font-normal'>24/7 Support</h5>
@@ -186,8 +187,8 @@ function App() {
         <div className='UX__Container'>
           <div className='UX__Containers relative'>
           {/* w-7/12  ml-48*/}
-            <div className='UX_Text 	  mt-16 bg-blue-800 rounded-2xl p-5 text-white	pt-14 pl-24 pb-25 '>
-              <h3 className='UX__Title text-4xl	pt-12 font-normal	 w-7/12 leading-10'> Why choose UX studio as your
+            <div className='UX_Text 	  mt-16 bg-blue-800 rounded-2xl p-5 text-white	pt-14  pb-25 '>
+              <h3 className='UX__Title text-4xl	pt-12 font-normal	  leading-10'> Why choose UX studio as your
                 app design partner?</h3>
               <p className='UX__Parrafo pt-8 text-lg	'>Duis aute irure dolor in reprehenderit in
                 voluptate velit esse cillum dolore eu
@@ -275,7 +276,7 @@ function App() {
                 <h6 className='Started__Sub--title   text-2xl font-normal 	'>Have a project or partnership in mind?
                   Contact us today for a free consultation.</h6>
               </div>
-              <a className='Started__Button font-semibold text-lg	rounded-3xl bg-blue-800 text-white w-64 h-12 p-10-30 hover:bg-blue-400' href="home">Contact us</a>
+              <a className='Started__Button font-semibold text-lg	rounded-3xl bg-blue-800 text-white  h-12 p-10-30 hover:bg-blue-400' href="home">Contact us</a>
             </div>
           </div>
         </div>
@@ -292,7 +293,7 @@ function App() {
               <img src={mujer} alt="" className='About__img--mujer absolute 	rounded-xl  object-cover	' />
               <div className='About__Circle absolute bg-blue-800 w-56 h-56 rounded-full  mt-20  -z-1'></div>
               <div>
-                <div className='About__Text absolute bg-none bg-gray-100 rounded-xl    mt-40	 pt-16 pl-28  -z-1'>
+                <div className='About__Text absolute bg-none bg-gray-100 rounded-xl    mt-40	 pt-16   -z-1'>
                   <h3 className='About__Title text-5xl	font-normal pt-11 '>About Us</h3>
                   <p className='About__parrafo text-lg	font-normal leading-relaxed	mt-5  '>Elit ut aliquam purus sit amet luctus venenatis. Ridiculus mus mauris vitae ultricies leo
                     integer malesuada. Massa enim nec dui nunc mattis enim. Sagittis vitae et leo duis ut. Lacus
@@ -346,19 +347,19 @@ function App() {
           </div>
 
           <div className='Help__Containers--Personas flex '>
-            <div className='Help__Persona1 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full 	'>
+            <div className='Help__Persona1 absolute w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full 	'>
               <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>May Smith</h6>
             </div>
 
-            <div className='Help__Persona2 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full ' >
+            <div className='Help__Persona2 absolute w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full ' >
               <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>Bob Perry</h6>
             </div>
 
-            <div className='Help__Persona3 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full '>
+            <div className='Help__Persona3 absolute w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full '>
               <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>Marry Hudson</h6>
             </div>
           </div>
-          <p className='Help__Pie--Pagina text-gray-500 text-base	font-normal text-center mt-14'>Image from <a href="https://freepik.com/photos/p" className='underline hover:no-underline'>Freepik</a></p>
+          <p className='Help__Pie--Pagina text-gray-500 text-base	font-normal text-center '>Image from <a href="https://freepik.com/photos/p" className='underline hover:no-underline'>Freepik</a></p>
         </div>
       </section>
 
@@ -526,8 +527,8 @@ function App() {
 
                             <div className='Form__Messages'>
                               <label htmlFor="" className='Form__Label block font-bold text-base text-white'>Message</label>
-                              <textarea placeholder="Enter your message" rows="4" cols="35" className='bg-transparent text-white outline-none w-97'></textarea><br />
-                              <a href="home" className='Teams__Button absolute mt-6 bg-white text-black w-97 h-12 uppercase text-center	pt-4 hover:bg-slate-200'>Submit</a>
+                              <textarea placeholder="Enter your message" rows="4" cols="35" className='bg-transparent text-white outline-none '></textarea><br />
+                              <a href="home" className='Teams__Button absolute mt-6 bg-white text-black  h-12 uppercase text-center	pt-4 hover:bg-slate-200'>Submit</a>
                             </div>
                           </div>
                         </form>
