@@ -22,26 +22,15 @@ function App() {
             <rect y="13" width="16" height="2"></rect>
           </g>
         </svg>
-
-        {/* <nav className="menu-navegacion  ">
-          <ul>
-            <li className='menu_item'>
-              <div className='menu_button'>
-                <a href="#Contactos" className='menu_link'>Home</a>
-              </div>
-              
-              </li>
-          </ul>
-        </nav> */}
       </header>
 
       {/* sm:bg-green-500 md:bg-blue-500 lg:bg-yellow-500 xl:bg-purple-500 2xl:bg-pink-500  */}
       
       <section className='section__MobileApp '>
         <div className='MobileApp__Container '>
-          <div className='MobileApp__Content flex flex-row items-end bg-center bg-cover pt-96 pb-28  '>
+          <div className='MobileApp__Content flex  items-end bg-center bg-cover pt-96 pb-28  	'>
             <div className='MobileApp__Text'>
-              <h1 className='MobileApp__Title  font-extrabold	 text-white   '>Mobile App Development</h1>
+              <h1 className='MobileApp__Title text-white'>Mobile App Development</h1>
               <p className='MobileApp__Parrafo text-white font-medium	pt-6  '>Image from <a href="https://www.freepik.com/photos/business" className='MobileApp__Parrafo underline hover:text-zinc-200 hover:no-underline'>Freepik</a></p>
             </div>
             <div className='MobileApp__List--Container'>
@@ -200,7 +189,7 @@ function App() {
             <div className='UX_Text 	  mt-16 bg-blue-800 rounded-2xl p-5 text-white	pt-14 pl-24 pb-25 '>
               <h3 className='UX__Title text-4xl	pt-12 font-normal	 w-7/12 leading-10'> Why choose UX studio as your
                 app design partner?</h3>
-              <p className='UX__Parrafo pt-8 text-lg	w-7/12'>Duis aute irure dolor in reprehenderit in
+              <p className='UX__Parrafo pt-8 text-lg	'>Duis aute irure dolor in reprehenderit in
                 voluptate velit esse cillum dolore eu
                 fugiat nulla
                 pariatur. Excepteur sint occaecat cupidatat non
@@ -295,12 +284,12 @@ function App() {
       <section className='section__About'>
         <div className='About__Container '>
           <div className='About__Content relative'>
-            <img src={edificio} alt="" className='About__img--edificio absolute  rounded-xl  mt-100  object-cover ' />
+            <img src={edificio} alt="" className='About__img--edificio absolute  rounded-xl    object-cover ' />
             <div>
-              <svg className="About__Svg absolute w-56 fill-blue-800   mt-48" viewBox="0 0 160 160" x="0px" y="0px" id="svg-db78">
+              <svg className="About__Svg absolute w-56 fill-blue-800   " viewBox="0 0 160 160" x="0px" y="0px" id="svg-db78">
                 <path d="M114.3,152.3l38-38C144.4,130.9,130.9,144.4,114.3,152.3z M117.1,9.1l-108,108c0.8,1.6,1.7,3.2,2.7,4.8l110-110 C120.3,10.9,118.7,10,117.1,9.1z M97.5,2L2,97.5c0.4,2,1,4,1.5,5.9l99.9-99.9C101.5,2.9,99.5,2.4,97.5,2z M80,160c2,0,4-0.1,5.9-0.2 l73.9-73.9c0.1-2,0.2-3.9,0.2-5.9c0-0.6,0-1.2,0-1.9L78.1,160C78.8,160,79.4,160,80,160z M34.9,146.1c1.5,1,3,2,4.6,2.9L149,39.5 c-0.9-1.6-1.9-3.1-2.9-4.6L34.9,146.1z M132.7,19.8L19.8,132.7c1.2,1.3,2.3,2.6,3.6,3.9L136.6,23.4C135.3,22.2,134,21,132.7,19.8z M59.6,157.4l97.8-97.8c-0.5-1.9-1.1-3.8-1.7-5.7L53.9,155.6C55.8,156.3,57.7,156.9,59.6,157.4z M7.6,45.9L45.9,7.6 C29.1,15.5,15.5,29.1,7.6,45.9z M80,0c-2.6,0-5.1,0.1-7.6,0.4l-72,72C0.1,74.9,0,77.4,0,80c0,0.1,0,0.2,0,0.2L80.2,0 C80.2,0,80.1,0,80,0z"></path>
               </svg>
-              <img src={mujer} alt="" className='About__img--mujer absolute 	rounded-xl mt-72 object-cover	' />
+              <img src={mujer} alt="" className='About__img--mujer absolute 	rounded-xl  object-cover	' />
               <div className='About__Circle absolute bg-blue-800 w-56 h-56 rounded-full  mt-20  -z-1'></div>
               <div>
                 <div className='About__Text absolute bg-none bg-gray-100 rounded-xl    mt-40	 pt-16 pl-28  -z-1'>
@@ -311,14 +300,14 @@ function App() {
                   </p>
                   <p className='About__pie--pagina text-base	font-normal mt-5'>images from <a href="https://www.freepik.com/photos/business" className='underline'>Freepik</a></p>
                 </div>
-                <a href="home" className='About__Button absolute bg-blue-800 text-white rounded-3xl w-44 h-auto tracking-widest	uppercase font-medium text-sm	 mt-44  p-15-60-14 hover:bg-black'>learn more</a>
+                <a href="home" className='About__Button absolute bg-blue-800 text-white rounded-3xl w-44 h-auto tracking-widest	uppercase font-medium text-sm	   p-15-60-14 hover:bg-black'>learn more</a>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className='section__Help mt-150 bg-gray-100'>
+      <section className='section__Help  bg-gray-100 '>
         <div className='Help__Container'>
           <div className='Help__Text text-center	pt-20'>
             <h2 className='Help__Title text-6xl font-normal	'>How We Help People</h2>
@@ -330,7 +319,7 @@ function App() {
           <div className='Help__Containers grid gap-12 p-8 mt-6 '>
             <div className='Help__Container1 bg-blue-800 rounded-3xl p-5 pb-8'>
               <span className='Help__Icon'><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
-              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 '>
                 Article evident arrived express highest men did boy. Mistress
                 sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
                 husband boy her had hearing.
@@ -339,7 +328,7 @@ function App() {
 
             <div className='Help__Container2  bg-blue-800 rounded-3xl p-5'>
               <span><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
-              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 '>
                 Article evident arrived express highest men did boy. Mistress
                 sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
                 husband boy her had hearing.
@@ -348,7 +337,7 @@ function App() {
 
             <div className='Help__Container3  bg-blue-800 rounded-3xl p-5 '>
               <span><img src={comillas} alt="" className='object-contain	w-12 ' /></span>
-              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 w-72'>
+              <p className='Help__Parrafo1 text-base	font-normal text-white leading-relaxed pt-10 '>
                 Article evident arrived express highest men did boy. Mistress
                 sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce
                 husband boy her had hearing.
@@ -365,7 +354,7 @@ function App() {
               <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>Bob Perry</h6>
             </div>
 
-            <div className='Help__Persona3 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full ml-80'>
+            <div className='Help__Persona3 w-16 h-16 bg-cover	bg-center	bg-no-repeat	rounded-full '>
               <h6 className='Help__Text--personas text-lg	font-normal bg-none	whitespace-nowrap	ml-20 mt-3 '>Marry Hudson</h6>
             </div>
           </div>
@@ -377,7 +366,7 @@ function App() {
         <div className='Teams__Container relative pt-40 h-700'>
           <div className='Teams__Content'>
             <div>
-              <div className='Teams__Cuadro absolute bg-none	bg-blue-800 rounded-xl  h-100 ml-58 mt-28'></div>
+              <div className='Teams__Cuadro absolute bg-none	bg-blue-800 rounded-xl   ml-58 mt-28'></div>
               <img src={teams} alt="" className='Teams__Img absolute 	 	rounded-3xl object-cover	' />
               <div className='Teams__Text absolute bg-none	bg-white rounded-2xl   pt-3 pl-10'>
                 <h3 className='Teams__Title text-6xl	font-normal pt-12'>Effective Teams</h3>
@@ -528,11 +517,11 @@ function App() {
                           <div className='flex flex-wrap gap-10  pt-8'>
                             <div className='Form__Email'>
                               <label htmlFor="" className='Form__Label block font-bold text-base	 text-white'>Email</label>
-                              <input type="email" placeholder="Enter a valid email address" className='Form__Input bg-transparent text-white outline-none w-60	' />
+                              <input type="email" placeholder="Enter a valid email address" className='Form__Input bg-transparent text-white outline-none ' />
                             </div>
                             <div className='Form__Name'>
                               <label htmlFor="" className='Form__Label block font-bold text-base	 text-white'>Name</label>
-                              <input type="text" placeholder="Enter your Name" className='Form__Input bg-transparent text-white outline-none w-56	' />
+                              <input type="text" placeholder="Enter your Name" className='Form__Input bg-transparent text-white outline-none' />
                             </div>
 
                             <div className='Form__Messages'>

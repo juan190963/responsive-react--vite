@@ -121,10 +121,10 @@ textarea::placeholder {
 }
 
 @media (max-width: 2561px) {
-
     .MobileApp__Text {
         padding-left: 10rem;
         margin-left: 23%;
+        font-weight: 800;
         width: 40%;
     }
 
@@ -230,6 +230,7 @@ textarea::placeholder {
         width: 87%;
     }
     .About__Button{
+        margin-top: 37rem;
         margin-left: 91rem;
     }
 
@@ -265,27 +266,32 @@ textarea::placeholder {
         margin-left: 20rem;
     }
 
+    .Help__Persona3{
+        margin-left: 20rem; 
+    }
+
     .Teams__Img{
         width: 56rem;
         object-position: 0% 38.08%;
         height: 612px;
-        margin-left: 55rem;
+        margin-left: 48rem;
     }
 
     .Teams__Cuadro{
-        width: 35%;
+        width: 30%;
+        height: 600px;
     }
 
     .Teams__Text{
         width: 25%;
         height: 370px;
-        margin-left: 48rem;
+        margin-left: 40rem;
         margin-top: 26rem;
     }
 
     .Contact__Lists{
         gap: 2rem;
-        margin-left: 7rem;
+        margin-right: 8rem;
     }
     .Contact__Office,
     .Contact__Number,
@@ -296,7 +302,7 @@ textarea::placeholder {
     }
 
     .Layout__Information--content{
-        margin-left: 49rem;
+        margin-left: 40rem;
     }
 
     .Layout__Sub--title{
@@ -307,9 +313,11 @@ textarea::placeholder {
     }
 
     .Form--Contact__Content{
-        margin-right: 30rem;
+        margin-right: 50rem;
     }
-    
+    .Form__Input{
+        width: 14rem;
+    }
     .Footer__Extra{
         padding-bottom: 3rem;
     }
@@ -428,6 +436,7 @@ textarea::placeholder {
         width: 87%;
     }
     .About__Button{
+        margin-top: 38rem;
         margin-left: 56rem;
     }
 
@@ -451,33 +460,38 @@ textarea::placeholder {
     }
 
     .Help__Containers {
-        grid-template-columns: repeat(3, calc(29% - -5px));
-        margin-left: 20rem;
+        grid-template-columns: repeat(3, calc(26% - -5px));
+        margin-left: 10rem;
     }
 
     .Help__Persona1{
-        margin-left: 42rem;
+        margin-left: 13rem;
     }
 
     .Help__Persona2{
-        margin-left: 20rem;
+        margin-left: 18rem;
+    }
+
+    .Help__Persona3{
+        margin-left: 19rem; 
     }
 
     .Teams__Img{
         width: 56rem;
         object-position: 0% 38.08%;
         height: 612px;
-        margin-left: 55rem;
+        margin-left: 15rem;
     }
 
     .Teams__Cuadro{
-        width: 35%;
+        width: 48%;
+        
     }
 
     .Teams__Text{
-        width: 25%;
+        width: 40%;
         height: 370px;
-        margin-left: 48rem;
+        margin-left: 11rem;
         margin-top: 26rem;
     }
 
@@ -494,24 +508,484 @@ textarea::placeholder {
     }
 
     .Layout__Information--content{
-        margin-left: 49rem;
+        margin-left: 10rem;
     }
 
     .Layout__Sub--title{
         width: 60%;
     }
     .Layout__Parrafo{
-        width: 68%;
+        width: 70%;
     }
 
     .Form--Contact__Content{
-        margin-right: 30rem;
+        margin-right: 10rem;
+    }
+
+    .Form__Input{
+        width: 14rem;
     }
     
     .Footer__Extra{
         padding-bottom: 3rem;
     }
     .Footer__Link {
-        margin-left: 65rem;
+        margin-left: 30rem;
+    }
+}
+
+@media (max-width: 1025px) {
+
+    .MobileApp__Text {
+        padding-left: 0rem; 
+        margin-left: 4%;
+        width: 29%;
+    }
+
+    .MobileApp__Title{
+        font-size: 4rem;
+    }
+
+    .MobileApp__List--Content {
+        margin-left: 45%;
+    }
+
+    .Desing__Parrafo--title {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .Desing__List--Container {
+        width: 100%;
+        margin-right: 80%;
+        justify-content: start;
+      }
+
+    .UX_Text {
+        width: 70%;
+        height: 640px;
+        margin-left: 4rem;
+    }
+
+    .UX__Img {
+        width: 27rem;
+        height: 600px;
+        margin-left: 17rem;
+        
+    }
+
+    .Build__Text {
+        margin-left: 6%;
+    }
+
+    .Build__Title {
+        width: 80%;
+    }
+
+    .Build__Parrafo {
+        width: 96%;
+       
+    }
+
+    .Build__Circle,
+    .circle {
+        width: 400px;
+        height: 400px;
+        margin-left: 5rem;
+    }
+
+    .Build__phone {
+        width: 20rem;
+        height: 600px;
+        margin-left: 8rem;
+    }
+
+    .Started__Container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .Started__Svg{
+        width: 8rem;
+        height: 6rem;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+
+    .Started__Title{
+        padding-left: 4rem;
+    }
+
+    .Started__Sub--title{
+        padding-left: 4rem;
+        width: 80%;
+        padding-bottom: 4rem;
+    }
+
+    .Started__Button{
+        margin-right: 3rem;
+    }
+
+    .About__img--mujer{
+        width: 45%;
+        height: 550px;
+        margin-left: 10rem;
+    }
+
+    .About__Text{
+        margin-left: 34rem;
+        width: 24rem;
+        height: 600px;
+    }
+    .About__parrafo{
+        width: 90%;
+    }
+    .About__Button{
+        margin-top: 42rem;
+        margin-left: 40rem;
+    }
+
+    .About__Svg{
+        margin-left: 5rem;
+    }
+
+    .About__Circle {
+        margin-left: 73%;
+    }
+
+    .About__img--edificio{
+        margin-left: 4rem;
+        width: 26rem;
+        height: 300px;
+    }
+
+    .Help__Parrafo{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .Help__Containers {
+        grid-template-columns: repeat(3, calc(29% - -5px));
+        height: 410px;
+        margin-left: 1rem;
+    }
+
+    .Help__Persona1{
+        margin-left: 4rem;
+    }
+
+    .Help__Persona2{
+        margin-left: 16rem;
+    }
+
+    .Help__Persona3{
+        margin-left: 16rem; 
+    }
+
+    .Teams__Img{
+        width: 50rem;
+        object-position: 0% 38.08%;
+        height: 550px;
+        margin-left:7rem;
+    }
+
+    .Teams__Cuadro{
+        width: 56%;
+    }
+
+    .Teams__Text{
+        width: 58%;
+        height: 370px;
+        margin-left: 3rem;
+        margin-top: 26rem;
+    }
+
+    .Teams__Parrafo{
+        width: 96%;
+    }
+    .Contact__Lists{
+        width: 60rem;
+        gap: 2rem;
+        margin-left: 2rem;
+    }
+    .Contact__Office,
+    .Contact__Number,
+    .Contact__Fax,
+    .Contact__Email{
+        width: 30rem;
+        height: 16rem;
+    }
+
+    
+    .Layout__Information--content{
+        margin-left:2rem;
+    }
+
+    .Layout__Sub--title{
+        width: 96%;
+    }
+    .Layout__Parrafo{
+        width: 80%;
+    }
+
+    .Form--Contact__Content{
+        margin-right: 4rem;
+        
+    }
+
+    .Form__Input{
+        width: 14rem;
+    }
+    
+    .Footer__Extra{
+        padding-bottom: 3rem;
+    }
+    .Footer__Link {
+        margin-left: 18rem;
+    }
+}
+
+
+@media (max-width: 769px) {
+
+    .MobileApp__Content{
+        flex-direction: column;
+    }
+
+    .MobileApp__Text {
+        padding-left: 0rem; 
+        margin-right: 24%;
+        width: 70%;
+        padding-bottom: 3rem;
+    }
+
+
+    .MobileApp__Title{
+        font-size: 6rem;
+    }
+
+    .MobileApp__List--Content {
+        margin-left: 30%;        
+    }
+
+    
+    .Desing__Parrafo--title {
+        width: 69%;
+        padding-left: 0rem; 
+    }
+
+    .Desing__List--Container {
+        width: 100%;
+        margin-right: 80%;
+        justify-content: start;
+      }
+
+      .Desing__img{
+        width: 10rem;
+      }
+
+    .UX_Text {
+        width: 87%;
+        height: 640px;
+        margin-left: 4rem;
+    }
+
+    .UX__Parrafo{
+        width: 34rem;
+    }
+
+    .UX__Img {
+        width: 30rem;
+        height: 650px;
+        margin-top: -5rem;
+        margin-left: 5rem;
+    }
+
+    .Build__Text {
+        margin-left: 6%;
+    }
+
+    .Build__Title {
+        width: 90%;
+        font-size: 4rem;
+    }
+
+    .Build__Parrafo {
+        width: 96%;
+       
+    }
+
+    .Build__Circle,
+    .circle {
+        width: 300px;
+        height: 300px;
+        margin-left: 5rem;
+    }
+
+    .Build__phone {
+        width: 30rem;
+        height: 500px;
+        margin-left: 5rem;
+    }
+
+    .Started__Container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .Started__Text--Container{
+        flex-direction: column;
+    }
+
+    .Started__Svg{
+        width: 8rem;
+        height: 6rem;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+
+    .Started__Title{
+        padding-left: 4rem;
+    }
+
+    .Started__Sub--title{
+        padding-left: 4rem;
+        width: 90%;
+    }
+
+    .Started__Button{
+        margin-left: -8rem;
+        margin-bottom: 3rem ;
+    }
+
+    .About__img--mujer{
+        width: 59%;
+        height: 550px;
+        margin-top: 45rem;
+        margin-left: 9rem;
+    }
+
+    .About__Text{
+        margin-left: 18rem;
+        width: 25rem;
+        height: 600px;
+    }
+    .About__parrafo{
+        width: 90%;
+    }
+    .About__Button{
+        margin-top: 40rem;
+        margin-left: 24rem;
+    }
+
+    .About__Svg{
+        margin-top: 40rem;
+        margin-left: 2rem;
+    }
+
+    .About__Circle {
+        margin-left: 68%;
+    }
+
+    .About__img--edificio{
+        margin-left: 4rem;
+        margin-top: 70rem;
+        width: 26rem;
+        height: 300px;
+    }
+
+    .section__Help{
+        margin-top: 94rem;
+    }
+
+    .Help__Parrafo{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .Help__Containers {
+        grid-template-columns: repeat(2, calc(29% - -5px));
+        height: 410px;
+        margin-left: 1rem;
+    }
+
+    .Help__Persona1{
+        margin-left: 4rem;
+    }
+
+    .Help__Persona2{
+        margin-left: 16rem;
+    }
+
+    .Help__Persona3{
+        margin-left: 16rem; 
+    }
+
+    .Teams__Img{
+        width: 50rem;
+        object-position: 0% 38.08%;
+        height: 550px;
+        margin-left:7rem;
+    }
+
+    .Teams__Cuadro{
+        width: 56%;
+    }
+
+    .Teams__Text{
+        width: 58%;
+        height: 370px;
+        margin-left: 3rem;
+        margin-top: 26rem;
+    }
+
+    .Teams__Parrafo{
+        width: 96%;
+    }
+    .Contact__Lists{
+        width: 60rem;
+        gap: 2rem;
+        margin-left: 2rem;
+    }
+    .Contact__Office,
+    .Contact__Number,
+    .Contact__Fax,
+    .Contact__Email{
+        width: 30rem;
+        height: 16rem;
+    }
+
+    
+    .Layout__Information--content{
+        margin-left:2rem;
+    }
+
+    .Layout__Sub--title{
+        width: 96%;
+    }
+    .Layout__Parrafo{
+        width: 80%;
+    }
+
+    .Form--Contact__Content{
+        margin-right: 4rem;
+        
+    }
+
+    .Form__Input{
+        width: 14rem;
+    }
+    
+    .Footer__Extra{
+        padding-bottom: 3rem;
+    }
+    .Footer__Link {
+        margin-left: 18rem;
     }
 }
